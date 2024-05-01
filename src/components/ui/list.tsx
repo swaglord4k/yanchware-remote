@@ -1,5 +1,5 @@
 import { PropsWithChildren } from "react";
-import { classes } from "../utils/theme-utils";
+import classnames from "classnames";
 
 export type ListProps = {} & React.HTMLAttributes<HTMLUListElement>;
 
@@ -8,7 +8,7 @@ export const List = (props: PropsWithChildren<ListProps>) => {
     return null;
   }
   return (
-    <ul {...props} className={classes("list-none", props)}>
+    <ul {...props} className={classnames("list-none", props)}>
       {props.children}
     </ul>
   );

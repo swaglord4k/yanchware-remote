@@ -1,5 +1,5 @@
 import { PropsWithChildren } from "react";
-import { classes } from "../utils/theme-utils";
+import classnames from "classnames";
 
 export type ListItemProps = {} & React.LiHTMLAttributes<HTMLLIElement>;
 
@@ -10,7 +10,7 @@ export const ListItem = (props: PropsWithChildren<ListItemProps>) => {
   return (
     <li
       {...props}
-      className={classes(`cursor-pointer hover:bg-gray-100`, props)}
+      className={classnames(`cursor-pointer rounded-sm hover:bg-gray-100`, props)}
     >
       {props?.children}
     </li>
