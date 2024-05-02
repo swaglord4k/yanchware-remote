@@ -1,8 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
-import { City } from "../pages/city";
 import { Home } from "../pages/cities";
-import { MyTrips } from "../pages/my-trips";
-import { Trips } from "../pages/trips";
+import { City } from "../pages/city";
 import { App } from "./app";
 import { ErrorPage } from "./error";
 
@@ -21,14 +19,14 @@ export const router = createBrowserRouter([
         element: <City />,
       },
       // possible pages to add in the future
-      {
-        path: "/my-trips",
-        element: <MyTrips />,
-      },
-      {
-        path: "/trips",
-        element: <Trips />,
-      },
+      // {
+      //   path: "/my-trips",
+      //   element: <MyTrips />,
+      // },
+      // {
+      //   path: "/trips",
+      //   element: <Trips />,
+      // },
     ],
   },
 ]);

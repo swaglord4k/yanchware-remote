@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+# YanchWare Trips
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+YankcWare Trips is a simple app that enables YanchWare employes to chosse their next visit while working remotely.
 
-## Available Scripts
+## Dependencies and Execution
 
-In the project directory, you can run:
+### Install the dependencies
 
-### `npm start`
+To install the dependencies go to the root of the project and run `npm install`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Run the app
+To run the app you need to be at the root of the project.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Run `npx json-server -w .\data\db.json -p 3500` to start the BE mock server.
 
-### `npm test`
+After the process started in a new terminal run `npm run start` to serve to FE application. After that your browser will open to the homepage of the app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## App Architecture
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The app is divided in folders/modules. Each module has one single duty.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `src/app` has the components that have an app scope
+- `src/components` has the React components that can be reused in more than one place in the application
+  - `.../app` has the  React components that accomplish a feature strictly related to the application. For example the list of cites, the list of coworking spaces ecc...
+  - `.../ui` has the React components that accomplish a UI/UX duty, for example an icon button, a card ecc...
+- `src/hooks` has the custom hooks that handles repeatable operations in the redux store
+- `src/models` has the models of the app.
+- `src/pages` has the React components that represent a single page in the application
+- `src/sevices` has the function that interact with the BE server. Each file here should contain all the endpoints related with a single model or functionality
+- `src/store` has the definition of the Redux store and different slices
+  - `.../slices` contains the different sections of the store. Each one of those slices should handle only one tipe of model
+- `src/utils` includes helper functions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Design choises
 
-### `npm run eject`
+### UX 
+The application at this stage is super simple because the requirements were super brief and because simplicity means that the user could hardly make some wrong choises.
+The app has a main page that loads the list of the cities that are available in our sistem and displays them in a readable and simple way.
+If the user selects one city he moves to the detail of this one where he can see in higher detail this one and better understand if it makes sense for him.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The app could have had only one page with a two column style UI. This was not used to show my ability to handle routing and app navigation. If in the future this app would be getting newer features than we could integrate those together.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### UI
+The UI is inspired by YanchWare main site and by Material Design principles. The main color is the blue in the header and the sections are defined by the use of cards this headers and content.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Functionality
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The app accomplishes only the requirements defined in the task because I think that the time was not enough to add other stuff that could be easily added in the future with other tasks. My main focus was to define a scalable project that could easily be handled to someone else and be able to work ASAP.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Some functionality that could be easily added are:
+- search for the cities list
+- the possibility to click on the address of a coworking spot and be sent to google maps to check it out
+- the possibility to click on the coworking name and be sent to the site of this one
+- add a date filter to the project to enanche the UX of the user
+  - if a user selects a date range he could see where his colleages are going to stay during that period
+- add the possibility to give an evaluation to a coworking spaces
+- add a section where you can see you past and future Trips
+  - if in one of those trips there is one coworker going there you could click on the icon and could start chatting with him (teams/slack or email)

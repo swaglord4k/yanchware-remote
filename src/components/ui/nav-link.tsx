@@ -9,9 +9,9 @@ export const NavigationLink = (
 ) => (
   <NavLink
     {...props}
-    className={({ isActive, isPending }) =>
+    className={({ isActive }) =>
       `m-4 text-white items-center ${
-        isActive ? "font-bold cursor-default" : "font-normal"
+        isActive ? "font-semibold cursor-default" : "font-normal"
       } ${props.className || ""}`
     }
   >

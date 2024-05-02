@@ -1,4 +1,9 @@
-import { useState } from "react";
+import {
+  MdOutlineKeyboardArrowRight,
+  MdOutlineKeyboardArrowLeft,
+} from "react-icons/md";
+import { Select } from "./icon-select";
+import { IconButton } from "./icon-button";
 
 export type PaginationProps = {
   total: number;
@@ -9,6 +14,8 @@ export type PaginationProps = {
   onPageClicked?: (page: number) => void;
   onSizeChange?: (size: number) => void;
 };
+
+const FIRST_PAGE = 1;
 
 export const Pagination = ({
   onNextClicked,
@@ -23,8 +30,8 @@ export const Pagination = ({
   const pageSizes = Array.from({ length: 5 }, (_, i) => (i + 1) * 20);
   const pagesOptions = Array.from({ length: pages }, (_, i) => i + 1);
   return (
-    <div className="sticky bottom-0 flex flex-row flex-wrap items-center h-10 w-full">
-      <select
+    <div className=" bg-white sticky bottom-0 flex flex-row flex-wrap items-center h-10 w-full">
+      <Select
         value={pageSize}
         onChange={(event) =>
           onSizeChange?.(Number(event.target.value) || pageSizes[0])
@@ -35,18 +42,21 @@ export const Pagination = ({
             {size}
           </option>
         ))}
-      </select>
-      <button
-        disabled={page === 0}
+      </Select>
+      <IconButton
+        disabled={page === FIRST_PAGE}
         className="ml-auto"
         onClick={() => onPreviousClicked?.()}
       >
-        {"<"}
-      </button>
-      <select
-        value={page + 1}
+        <MdOutlineKeyboardArrowLeft
+          className={page === FIRST_PAGE ? "fill-gray-300" : ""}
+        />
+      </IconButton>
+      <Select
+        value={page}
+        disabled={pages === 1}
         onChange={(event) =>
-          onPageClicked?.(Number(event.target.value) - 1 || 0)
+          onPageClicked?.(Number(event.target.value) || FIRST_PAGE)
         }
       >
         {pagesOptions.map((pageOption) => (
@@ -54,10 +64,12 @@ export const Pagination = ({
             {pageOption}
           </option>
         ))}
-      </select>
-      <button disabled={page + 1 === pages} onClick={() => onNextClicked?.()}>
-        {">"}
-      </button>
+      </Select>
+      <IconButton disabled={page === pages} onClick={() => onNextClicked?.()}>
+        <MdOutlineKeyboardArrowRight
+          className={page === pages ? "fill-gray-300" : ""}
+        />
+      </IconButton>
     </div>
   );
 };

@@ -10,7 +10,7 @@ export const ListItem = (props: PropsWithChildren<ListItemProps>) => {
   return (
     <li
       {...props}
-      className={classnames(`cursor-pointer rounded-sm hover:bg-gray-100`, props)}
+      className={classnames(`cursor-pointer rounded-sm`, props.className)}
     >
       {props?.children}
     </li>

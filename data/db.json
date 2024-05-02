@@ -1,0 +1,850 @@
+{
+  "cities": [
+    {
+      "cityId": "1",
+      "country": "Italy",
+      "name": "Rome",
+      "climate": {
+        "averageTemperature": 24.5,
+        "rainfall": 10
+      },
+      "costOfLivingIndex": 123,
+      "coworkingSpaces": [
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        },
+        {
+          "address": "Rome ST",
+          "name": "Coworking Rome",
+          "rating": 4
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "2",
+      "country": "Italy",
+      "name": "Bari",
+      "climate": {
+        "averageTemperature": 6.5,
+        "rainfall": 7
+      },
+      "costOfLivingIndex": 234,
+      "coworkingSpaces": [
+        {
+          "address": "Coworking Bari ST",
+          "name": "Coworking Bari",
+          "rating": 2
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "3",
+      "country": "Italy",
+      "name": "Napoli",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Napoli ST",
+          "name": "Coworking Napoli",
+          "rating": 2
+        },
+
+        {
+          "address": "Napoli ST 2",
+          "name": "Coworking N",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "4",
+      "country": "Italy",
+      "name": "Milan",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Milan ST",
+          "name": "Coworking Milan",
+          "rating": 2
+        },
+
+        {
+          "address": "Milan ST 2",
+          "name": "Coworking M",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "5",
+      "country": "Italy",
+      "name": "Turin",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Turin ST",
+          "name": "Coworking Turin",
+          "rating": 2
+        },
+
+        {
+          "address": "Turin ST 2",
+          "name": "Coworking T",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "6",
+      "country": "Italy",
+      "name": "Bologna",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Bologna ST",
+          "name": "Coworking Bologna",
+          "rating": 2
+        },
+
+        {
+          "address": "Bologna ST 2",
+          "name": "Coworking B",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "7",
+      "country": "Italy",
+      "name": "Altamura",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Coworking Altamura ST",
+          "name": "Coworking Altamura",
+          "rating": 2
+        },
+
+        {
+          "address": "Coworking Altamura ST 2",
+          "name": "Coworking A",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "8",
+      "country": "Italy",
+      "name": "Venice",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Venice ST",
+          "name": "Coworking Venice",
+          "rating": 2
+        },
+
+        {
+          "address": "Venice ST 2",
+          "name": "Coworking V",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "9",
+      "country": "Italy",
+      "name": "Trieste",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Trieste ST",
+          "name": "Coworking Trieste",
+          "rating": 2
+        },
+
+        {
+          "address": "Trieste ST 2",
+          "name": "Coworking T",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "10",
+      "country": "Italy",
+      "name": "Pisa",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Pisa ST",
+          "name": "Coworking Pisa",
+          "rating": 2
+        },
+
+        {
+          "address": "Pisa ST 2",
+          "name": "Coworking P",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "11",
+      "country": "Italy",
+      "name": "Florence",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Florence ST",
+          "name": "Coworking Florence",
+          "rating": 2
+        },
+
+        {
+          "address": "Florence ST 2",
+          "name": "Coworking F",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "12",
+      "country": "Italy",
+      "name": "Catania",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Catania ST",
+          "name": "Coworking Catania",
+          "rating": 2
+        },
+
+        {
+          "address": "Catania ST 2",
+          "name": "Coworking C",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "13",
+      "country": "Italy",
+      "name": "Taormina",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Taormina ST",
+          "name": "Coworking Taormina",
+          "rating": 2
+        },
+
+        {
+          "address": "Taormina ST 2",
+          "name": "Coworking T",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "14",
+      "country": "Italy",
+      "name": "Genoa",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Genoa ST",
+          "name": "Coworking Genoa",
+          "rating": 2
+        },
+
+        {
+          "address": "Genoa ST 2",
+          "name": "Coworking G",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "15",
+      "country": "Italy",
+      "name": "Padova",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Padova ST",
+          "name": "Coworking Padova",
+          "rating": 2
+        },
+
+        {
+          "address": "Padova ST 2",
+          "name": "Coworking P",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "16",
+      "country": "Italy",
+      "name": "Perugia",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Perugia ST",
+          "name": "Coworking Perugia",
+          "rating": 2
+        },
+
+        {
+          "address": "Perugia ST 2",
+          "name": "Coworking P",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "17",
+      "country": "Italy",
+      "name": "Reggio Calabria",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Reggio Calabria ST",
+          "name": "Coworking Reggio Calabria",
+          "rating": 2
+        },
+
+        {
+          "address": "Reggio Calabria ST 2",
+          "name": "Coworking RG",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "18",
+      "country": "Italy",
+      "name": "Reggio Emilia",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Reggio Emilia ST",
+          "name": "Coworking Reggio Emilia",
+          "rating": 2
+        },
+
+        {
+          "address": "Reggio Emilia ST 2",
+          "name": "Coworking RE",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "19",
+      "country": "Italy",
+      "name": "Rimini",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Rimini ST",
+          "name": "Coworking Rimini",
+          "rating": 2
+        },
+
+        {
+          "address": "Rimini ST 2",
+          "name": "Coworking R",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "20",
+      "country": "Italy",
+      "name": "Catanzaro",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Catanzaro ST",
+          "name": "Coworking Catanzaro",
+          "rating": 2
+        },
+
+        {
+          "address": "Catanzaro ST 2",
+          "name": "Coworking C",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    },
+    {
+      "cityId": "21",
+      "country": "Italy",
+      "name": "Matera",
+      "climate": {
+        "averageTemperature": 11.5,
+        "rainfall": 23
+      },
+      "costOfLivingIndex": 563,
+      "coworkingSpaces": [
+        {
+          "address": "Matera ST",
+          "name": "Coworking Matera",
+          "rating": 2
+        },
+
+        {
+          "address": "Matera ST 2",
+          "name": "Coworking M",
+          "rating": 5
+        }
+      ],
+      "internetSpeed": {
+        "download": 100,
+        "upload": 20
+      },
+      "safetyIndex": 90
+    }
+  ]
+}

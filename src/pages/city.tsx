@@ -1,36 +1,34 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import { useParams } from "react-router-dom";
-import { Container } from "../components/layout/container";
+import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
+import { useNavigate, useParams } from "react-router-dom";
+import { Card } from "../components/ui/card";
 import { useCityState } from "../hooks/city.hook";
 
+import { CityHeader } from "../components/app/city-header";
+import { CoworkingSpaces } from "../components/app/coworking-spaces";
+import { IconButton } from "../components/ui/icon-button";
 export const City = () => {
+  const navigate = useNavigate();
   const params = useParams();
   const { city, status } = useCityState(params.cityId);
 
   return (
-    <Container
-      className="flex flex-col max-w-screen-md justify-center align-middle mx-auto my-4"
-      status={status}
-    >
-      <p>{city?.cityId}</p>
-      <p>Climate</p>
-      <p>avg: {city?.climate?.averageTemperature}</p>
-      <p>rainfal: {city?.climate?.rainfall}</p>
-      <p>{city?.costOfLivingIndex}</p>
-      <p>{city?.country}</p>
-      <p>Coworking Spaces</p>
-      {city?.coworkingSpaces?.map((space) => (
-        <div key={`${space.name} ${space.address}`}>
-          <p>{space.name}</p>
-          <p>{space.address}</p>
-          <p>{space.rating}</p>
-        </div>
-      ))}
-      <p>Internet Speed</p>
-      <p>{city?.internetSpeed?.download}</p>
-      <p>{city?.internetSpeed?.upload}</p>
-      <p>{city?.name}</p>
-      <p>{city?.safetyIndex}</p>
-    </Container>
+    <main>
+      <Card status={status} className="mx-auto max-w-screen-md flex flex-col">
+        {city ? (
+          <>
+            <div className="flex flex-row items-center gap-2 pb-2 bg-white border-b border-gray-100">
+              <IconButton onClick={() => navigate(-1)}>
+                <MdOutlineKeyboardArrowLeft className="fill-gray-500" />
+              </IconButton>
+              <CityHeader city={city} withDetails />
+            </div>
+            <CoworkingSpaces city={city} />
+          </>
+        ) : (
+          <p>No city found</p>
+        )}
+      </Card>
+    </main>
   );
 };

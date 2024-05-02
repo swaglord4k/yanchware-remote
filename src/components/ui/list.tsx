@@ -8,7 +8,7 @@ export const List = (props: PropsWithChildren<ListProps>) => {
     return null;
   }
   return (
-    <ul {...props} className={classnames("list-none", props)}>
+    <ul {...props} className={classnames("list-none", props.className)}>
       {props.children}
     </ul>
   );

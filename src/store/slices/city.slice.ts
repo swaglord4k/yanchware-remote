@@ -1,12 +1,12 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { City } from "../../models/city.model";
 import { Stateful } from "../../models/stateful.model";
 import { Status } from "../../models/status.model";
 import { getCityDetail } from "../../services/cities.service";
 import { RootState } from "../store";
-import { CityDetail } from "./../../models/city-detail.model";
 
 export type CityState = {
-  city?: CityDetail;
+  city?: City;
 } & Stateful;
 
 const initialState: CityState = {

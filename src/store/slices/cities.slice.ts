@@ -2,7 +2,7 @@ import { PayloadAction, createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { City } from "../../models/city.model";
 import { Stateful } from "../../models/stateful.model";
 import { Status } from "../../models/status.model";
-import { getCities, getCityDetail } from "../../services/cities.service";
+import { getCities } from "../../services/cities.service";
 import { RootState } from "../store";
 
 export type CitiesState = {
@@ -15,7 +15,7 @@ export type CitiesState = {
 const initialState: CitiesState = {
   cities: [],
   limit: 20,
-  offset: 0,
+  offset: 1,
   count: 0,
   status: Status.idle,
 };
@@ -34,7 +34,7 @@ export const citiesSlice = createSlice({
   reducers: {
     setLimit: (state, action: PayloadAction<number>) => {
       state.limit = action.payload;
-      state.offset = 0;
+      state.offset = 1;
     },
     setOffset: (state, action: PayloadAction<number>) => {
       state.offset = action.payload;
